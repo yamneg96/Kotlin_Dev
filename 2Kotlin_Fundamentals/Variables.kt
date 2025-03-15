@@ -21,4 +21,9 @@ val notificationsEnabled: Boolean = false
     val myName: String = "John"
     println("My name is $myName")
   
+
+    val nextMeeting = "Next meeting: "
+    val date = "January 1"
+    val reminder = nextMeeting + date + " at work"
+    println(reminder)
 }
