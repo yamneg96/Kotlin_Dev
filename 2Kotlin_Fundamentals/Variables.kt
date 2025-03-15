@@ -13,4 +13,12 @@ fun main(args : Array<String>) {
     println("$numberOfPhotos photos")
     println("$photosDeleted photos deleted")
     println("${numberOfPhotos - photosDeleted} photos left")
+
+//Other DataTypes
+val notificationsEnabled: Boolean = false
+    println("Are notifications enabled? " + notificationsEnabled)
+
+    val myName: String = "John"
+    println("My name is $myName")
+  
 }
