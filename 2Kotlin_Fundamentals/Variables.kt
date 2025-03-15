@@ -7,4 +7,10 @@ fun main(args : Array<String>) {
   println("You have ${unreadCount + readCount} total messages in your inbox.")
   // The code below gives error. Why?
   // val range1: Byte = 200
+
+  val numberOfPhotos = 100
+    val photosDeleted = 10
+    println("$numberOfPhotos photos")
+    println("$photosDeleted photos deleted")
+    println("${numberOfPhotos - photosDeleted} photos left")
 }
