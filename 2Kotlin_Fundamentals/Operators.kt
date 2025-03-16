@@ -44,4 +44,19 @@ fun main(args: Array<String>) {
 
     --c
     println("--c = $c")
+
+
+    val e = -12
+    val f = 12
+
+    // use of greater than operator
+    val max = if (e > f) {
+        println("e is larger than f.")
+        e
+    } else {
+        println("f is larger than e.")
+        f
+    }
+
+    println("max = $max")
 }
