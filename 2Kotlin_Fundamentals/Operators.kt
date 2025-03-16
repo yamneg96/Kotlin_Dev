@@ -77,4 +77,10 @@ fun main(args: Array<String>) {
     if (4 in numbers) {
         println("numbers array contains 4.")
     }
+
+
+    val r  = intArrayOf(1, 2, 3, 4, - 1)
+    println(r[1])   
+    r[1]= 12
+    println(r[1])
 }
