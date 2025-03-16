@@ -69,4 +69,12 @@ fun main(args: Array<String>) {
     // result is true is a is largest
     result = (g>h) && (g>k) // result = (a>b) and (a>c)
     println(result)
+
+
+    //Example: in Operator.
+    val numbers = intArrayOf(1, 4, 42, -3)
+
+    if (4 in numbers) {
+        println("numbers array contains 4.")
+    }
 }
