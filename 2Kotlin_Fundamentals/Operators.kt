@@ -59,4 +59,14 @@ fun main(args: Array<String>) {
     }
 
     println("max = $max")
+
+
+    val g = 12
+    val h = 5
+    val k = -1
+    val result: Boolean
+
+    // result is true is a is largest
+    result = (g>h) && (g>k) // result = (a>b) and (a>c)
+    println(result)
 }
