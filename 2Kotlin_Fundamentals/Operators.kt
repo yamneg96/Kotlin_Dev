@@ -24,6 +24,24 @@ fun main(args: Array<String>) {
     val middle : String = "Show me the code. "
     val end : String = "- Linus Torvalds"
 
-    val result = start + middle + end
-    println(result)
+    val result2 = start + middle + end
+    println(result2)
+
+
+
+    val a = 1
+    val b = true
+    var c = 1
+
+    var result3: Int
+    var booleanResult: Boolean
+
+    result3 = -a
+    println("-a = $result3")
+
+    booleanResult = !b
+    println("!b = $booleanResult")
+
+    --c
+    println("--c = $c")
 }
