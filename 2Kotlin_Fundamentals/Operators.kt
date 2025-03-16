@@ -18,4 +18,12 @@ fun main(args: Array<String>) {
 
   result = number1 % number2
   println("number1 % number2 = $result")
+
+
+  val start : String = "Talk is cheap. "
+    val middle : String = "Show me the code. "
+    val end : String = "- Linus Torvalds"
+
+    val result = start + middle + end
+    println(result)
 }
