@@ -84,3 +84,15 @@ fun main(args: Array<String>) {
     r[1]= 12
     println(r[1])
 }
+
+/*
+Bitwise Operation
+Unlike Java, there are no bitwise and bitshift operators in Kotlin. To perform these task, various functions (supporting infix notation) are used:
+
+shl - Signed shift left
+shr - Signed shift right
+ushr - Unsigned shift right
+and - Bitwise and
+or - Bitwise or
+xor - Bitwise xor
+inv - Bitwise inversion */
