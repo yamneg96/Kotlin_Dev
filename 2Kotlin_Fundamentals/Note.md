@@ -26,3 +26,36 @@ Numbers in Kotlin are similar to Java. There are 6 built-in types representing n
 * Long
 * Float
 * Double
+
+## Type Conversion.
+Here's a list of functions in Kotlin used for type conversion:
+
+* toByte() 
+* toShort()
+* toInt()
+* toLong()
+* toFloat()
+* toDouble()
+* toChar()
+
+Note, there is no conversion for Boolean types.
+
+```String to Int, and Int to String Conversion```
+
+```Long to Int, and Int to Long Conversion```
+
+```Double to Int, and Int to Double Conversion```
+
+```Long to Double, and Double to Long Conversion```
+
+```Char to Int, and Int to Char```
+
+```String to Long, and Long to String Conversion```
+
+```String to Array, and Array to String Conversion```
+
+```String to Boolean, and Boolean to String Conversion```
+
+```String to Byte, and Byte to String Conversion```
+
+```Int to Byte, and Byte to Int Conversion```
