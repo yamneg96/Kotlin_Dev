@@ -21,6 +21,9 @@ fun main(args : Array<String>) {
   val range5: Float = 3.40282347E38F
   println("$range5 is Float data type.")
 
+  //Unlike Java Characters aren't numbers in Kotlin.
+  //They are a separate type. The Char type represents a single character. It is a 16-bit unsigned integer value.
+  //The range of Char is from '\u0000' to '\uffff' (0 to 65535).
   val range6: Double = 1.7976931348623157E308
   println("$range6 is Double data type.")
 
@@ -34,5 +37,8 @@ fun main(args : Array<String>) {
   //It is a sequence of characters. It is immutable.
   val range9: String = "Hello World!"
   println("$range9 is String data type.")
+  //An array is a container that holds data (values) of one single type. For example, you can create an array that can hold 100 values of Int type.
+  //In Kotlin, arrays are represented by the Array class. The class has get and set functions, size property, and a few other useful member functions.
+
 
 }
