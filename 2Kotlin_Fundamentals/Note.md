@@ -59,3 +59,5 @@ Note, there is no conversion for Boolean types.
 ```String to Byte, and Byte to String Conversion```
 
 ```Int to Byte, and Byte to Int Conversion```
+
+### Under the hood, the expression a + b calls a.plus(b)(same with the other 4 operators.) member function. The plus operator is overloaded to work with String values and other basic data types (except ```Char``` and ```Boolean```).
