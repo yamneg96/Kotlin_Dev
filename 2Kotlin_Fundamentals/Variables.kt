@@ -1,29 +1,38 @@
 fun main(args : Array<String>) {
-  val range: Byte = 112
-  println("$range")
+  //Variable Decalration is only possible if specified explicitly.
+  var language : String //Declaration
+  language = "Kotlin"  //Initialization
+  println("Language is $language")
 
-  val unreadCount = 5
-  val readCount = 100
-  println("You have ${unreadCount + readCount} total messages in your inbox.")
-  // The code below gives error. Why?
-  // val range1: Byte = 200
+  //The Kotlin Compiler understands implicitly the type of the variable.
+  //We can also explicitly define the type of the variable.
+  val range1: Byte = 112
+  println("$range1 is Byte data type.")
 
-  val numberOfPhotos = 100
-    val photosDeleted = 10
-    println("$numberOfPhotos photos")
-    println("$photosDeleted photos deleted")
-    println("${numberOfPhotos - photosDeleted} photos left")
+  val range2: Short = 32767
+  println("$range2 is Short data type.")
 
-//Other DataTypes
-val notificationsEnabled: Boolean = false
-    println("Are notifications enabled? " + notificationsEnabled)
+  val range3: Int = 2147483647
+  println("$range3 is Int data type.")
 
-    val myName: String = "John"
-    println("My name is $myName")
-  
+  val range4: Long = 9223372036854775807
+  println("$range4 is Long data type.")
 
-    val nextMeeting = "Next meeting: "
-    val date = "January 1"
-    val reminder = nextMeeting + date + " at work"
-    println(reminder)
+  val range5: Float = 3.40282347E38F
+  println("$range5 is Float data type.")
+
+  val range6: Double = 1.7976931348623157E308
+  println("$range6 is Double data type.")
+
+  val range7: Char = 'A'
+  println("$range7 is Char data type.")
+
+  val range8: Boolean = true
+  println("$range8 is Boolean data type.")
+
+  //String is a class in Kotlin. It is not a primitive data type.
+  //It is a sequence of characters. It is immutable.
+  val range9: String = "Hello World!"
+  println("$range9 is String data type.")
+
 }
